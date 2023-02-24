@@ -20,7 +20,7 @@ const getSum = () => {
   const totalCell = document.createElement('td');
 
   // Set the text content of the total cell to the total price
-  totalCell.textContent = `${totalPrice.toFixed(2)}`;
+  totalCell.textContent = `Total Price : ${totalPrice}`;
 
   // Add the total cell to the total row and add the total row to the table
   totalRow.appendChild(totalCell);
